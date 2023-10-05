@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { demoProfilePicture } from '../utilities/constants';
 
 
-const ChannelCard = ({ channelDetail }) => (
+const ChannelCard = ({ channelDetail, marginTop }) => (
 
     <Box 
       sx={{ 
@@ -17,6 +17,7 @@ const ChannelCard = ({ channelDetail }) => (
         width: { xs: '365px', md: '320px'},
         height: '326px',
         margin: 'auto',
+        marginTop,
 
       }}
     >
